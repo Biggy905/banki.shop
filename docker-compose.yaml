@@ -11,7 +11,7 @@ services:
       - "3200:3200"
       - "3300:3300"
     depends_on:
-      - gs_php_fpm
+      - bs_php_fpm
     restart: unless-stopped
 
   bs_php_fpm:
